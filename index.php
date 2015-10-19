@@ -12,10 +12,10 @@
         print "You can buy specs!";
     }
     elseif ($myage >=18) {
-        print "You can buy mugs!";
+        print "You can buy specs & mugs!";
     }
     elseif ($myage >=21) {
-        print "You can buy Sausage Rolls!";
+        print "You can buy specs & mugs & Sausage Rolls!";
     }
     ?>
 </p>
