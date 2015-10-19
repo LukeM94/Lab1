@@ -3,22 +3,19 @@
 <head>
 </head>
 <body>
-<p>
-    <?php
-    echo "Hello, world!";
-    echo "Hello," . " " . "world" . "!";
-    echo 5*7;
-    ?>
-</p>
-<p>
-    <?php
-    $name = "Edgar";
 
-    if ($name == "Simon") {
-        print "I know you!";
+<p>
+    <?php
+    $myage = 21;
+
+    if ($myage >= 16) {
+        print "You can buy specs!";
     }
-    else {
-        print "Who are you?";
+    elseif ($myage >=18) {
+        print "You can buy mugs!";
+    }
+    elseif ($myage >=21) {
+        print "You can buy Sausage Rolls!";
     }
     ?>
 </p>
