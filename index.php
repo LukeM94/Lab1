@@ -6,17 +6,22 @@
 
 <p>
     <?php
-    $myage = 20;
+    $wantedgood = "Sausage Rolls";
 
-    if ($myage >=21) {
-        print "You can buy specs & mugs & Sausage Rolls!";
+    switch ($wantedgood) {
+        case "Specs":
+            echo "16";
+            break;
+        case "Mugs":
+            echo "18";
+            break;
+        case "Sausage Rolls":
+            echo "21";
+            break;
+        default:
+            echo "Enter a good";
     }
-    elseif ($myage >=18) {
-        print "You can buy specs & mugs!";
-    }
-    elseif ($myage >= 16) {
-        print "You can buy specs!";
-    }
+
     ?>
 </p>
 </body>
