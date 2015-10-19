@@ -8,14 +8,14 @@
     <?php
     $myage = 21;
 
-    if ($myage >= 16) {
-        print "You can buy specs!";
+    if ($myage >=21) {
+        print "You can buy specs & mugs & Sausage Rolls!";
     }
     elseif ($myage >=18) {
         print "You can buy specs & mugs!";
     }
-    elseif ($myage >=21) {
-        print "You can buy specs & mugs & Sausage Rolls!";
+    elseif ($myage >= 16) {
+        print "You can buy specs!";
     }
     ?>
 </p>
